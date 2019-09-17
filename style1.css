@@ -1,0 +1,302 @@
+@media only screen and (max-width: 600px){
+		
+* {
+    padding : 0;
+    margin : 0;
+	box-sizing: border-box;
+}
+
+body {
+   background: white;
+   color : black;
+	width:100%;
+	margin:0;
+	padding:0;	
+	font-size:14px;
+	line-height:25px;
+	font-family: Tahoma, 'Segoe UI', Geneva, Verdana, sans-serif;
+}
+
+#header{
+	display: flex;
+	width:100%;
+}
+
+.logo{
+	padding-top:20px;
+	padding-left:5%;
+	padding-right:5%;
+	width:40%;
+}
+
+.logo img{
+	width:100%;
+	display: block;
+}
+
+.clipart{
+	width:60%;
+	background-image: linear-gradient(to right, #C850D8, #A050E8 ), url("index.png");
+	clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 80% 90%, 0% 5% );
+	height:400px;
+}
+
+#linkImp{
+	text-decoration: none;
+	display: block;
+	width:50%;
+	text-align: center;
+	background-color: white;
+	color: #C850D8;
+	margin-left: 45%;
+	margin-right:5%;
+	margin-top:10px;
+	padding-top: 5px;
+	padding-bottom:5px;
+	border-radius: 25px 25px 25px 25px;
+}
+
+
+
+
+#imageMain{
+	width:60%;
+	position: absolute;
+	top:80px;
+	left:20%;
+}
+
+#imageMain img{
+	width:100%;
+	height: 300px;
+}
+
+
+#text{
+	width:100%;
+	position: absolute;
+	top:400px;
+	background-color: white;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+.textHeader{
+	margin-bottom:10px;
+	width:100%;
+	text-align: center;
+}
+
+
+.textLongSpeech{
+	width:100%;
+	font-size: 15px;
+	text-align: center;
+}
+
+#mainLink{
+	background-color: #C850D8;
+	color: white;
+	padding: 20px;
+	width:50%;
+	margin-left:25%;
+	margin-right:25%;
+	margin-top:5%;
+	text-align: center;
+}
+
+
+
+
+#header1{
+	display: block;
+	position: absolute;
+	top:700px;
+}
+
+.img1{
+	width:100%;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+.img1 img{
+	width:100%;
+	height:300px;
+}
+
+text1{
+	width: 100%;
+	height:400px;
+}
+
+.text1p1, .text1p2, .text1p3{
+	text-align: center;
+}
+
+
+
+.flowingCon{
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top:20px;
+}
+	
+.GrowTog{
+	text-align: center;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+
+.YourUsers{
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+
+
+
+
+#body{
+	position: absolute;
+	top: 1500px;
+	width:100%;
+	padding-top: 30px;
+	padding-bottom:30px;
+}
+
+.text2{
+	width:100%;
+	box-shadow: 10px 10px 10px 10px rgb(0,0,0,0.5);
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+.tryitfree{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width:100%;
+}
+
+.tryitfreetext{
+	text-align: center;
+}
+
+
+
+
+
+
+
+#footer{
+	position: absolute;
+	top:1850px;
+	background-color:#002028;
+	color: white;
+	padding-bottom:100px;
+	width:100%;
+}
+
+#footLogo{
+	width:100%;
+	height:100px;
+}
+
+#footLogo img{
+	width: 100%;
+	height:100px;
+}
+
+#Copyright{
+	width:100%;
+	padding:20px;
+}
+
+#AboutUs{
+	width:100%;
+	padding:20px;
+}
+
+#Career{
+	width:100%;
+	padding:20px;
+}
+
+#Subscribe{
+	width:100%;
+	line-height:15px;
+	padding:30px;
+}
+
+.subscribe{
+	width:100%;
+	margin-bottom:20px;
+	text-align: center;
+}
+
+.SubscribeSpeech{
+	width:100%;
+	line-height:20px;
+	word-spacing:0px;
+	text-align: justify;
+}
+
+.Input{
+	display: block;
+	width:60%;
+	margin-left:20%;
+	margin-right:20%;
+	margin-top:20px;
+	margin-bottom: 10px;
+	border: 0px;
+	height:30px;
+}
+
+
+.SubscribeButton{
+	background-color: #C850D8;
+	color: white;
+	padding: 10px;
+	width:60%;
+	border: 0px;
+	margin-left:20%;
+	margin-right:20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
