@@ -1,0 +1,264 @@
+@media only screen and (min-width: 600px){
+
+* {
+    padding : 0;
+    margin : 0;
+	box-sizing: border-box;
+}
+
+body {
+   background: white;
+   color : black;
+	width:100%;
+	margin:0;
+	padding:0;	
+	font-size:15px;
+	line-height:25px;
+	font-family: Tahoma, 'Segoe UI', Geneva, Verdana, sans-serif;
+}
+
+
+
+#header{
+	display: flex;
+	width:100%;
+}
+
+.logo{
+	width:30%;
+	padding:20px;
+}
+
+.logo img{
+	width:100%;
+	display: block;
+}
+
+.clipart{
+	width:70%;
+	background-image: linear-gradient(to right, #C850D8, #A050E8 ), url("index.png");
+	clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 80% 90%, 0% 5% );
+	/*clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 10%, 0% 10%);*/
+	/*clip-path: inset(0 0 0 0 round 10%);*/
+	/*clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 0%);*/
+	height:700px;
+}
+
+#linkImp{
+	text-decoration: none;
+	display: block;
+	width:50%;
+	text-align: center;
+	background-color: white;
+	color: #C850D8;
+	margin-left: 45%;
+	margin-right:5%;
+	margin-top:20px;
+	padding-top: 15px;
+	padding-bottom:15px;
+	font-size: 30px;
+	border-radius: 25px 25px 25px 25px;
+}
+
+
+#imageMain{
+	width:60%;
+	position: absolute;
+	top:150px;
+	left:20%;
+}
+
+#imageMain img{
+	width:100%;
+	height: 500px;
+}
+
+#text{
+	width:50%;
+	position: absolute;
+	top:700px;
+	left:25%;
+	background-color: white;
+}
+
+.textHeader{
+	margin-bottom:10px;
+	width:120%;
+}
+
+
+.textLongSpeech{
+	width:100%;
+	font-size: 15px;
+	text-align: center;
+}
+
+#mainLink{
+	background-color: #C850D8;
+	color: white;
+	padding: 20px;
+	width:50%;
+	margin-left:25%;
+	margin-right:25%;
+	margin-top:5%;
+	text-align: center;
+}
+
+
+
+
+#header1{
+	position: absolute;
+	top:1100px;
+	display: flex;
+	width:100%;
+	height:400px;
+	padding-top:70px;
+}
+
+.img1{
+	width:55%;
+}
+
+.img1 img{
+	width:80%;
+	height:400px;
+}
+
+.text1{
+	width: 45%;
+	height:400px;
+}
+
+.flowingCon{
+	margin-bottom: 20px;
+	margin-top:20px;
+}
+	
+.GrowTog{
+	margin-bottom:20px;
+	margin-top:20px;
+}
+
+.YourUsers{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+
+
+#body{
+	position: absolute;
+	top: 1700px;
+	width:100%;
+	padding-top: 30px;
+	padding-bottom:30px;
+}
+
+.text2{
+	margin-left:27.5%;
+	margin-right:27.5%;
+	width:45%;
+	padding-top:40px;
+	padding-bottom:40px;
+	box-shadow: 10px 10px 10px 10px rgb(0,0,0,0.5);
+}
+
+.tryitfree{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.tryitfreetext{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+#footer{
+	position: absolute;
+	top:2050px;
+	background-color:#002028;
+	color: white;
+	padding-bottom:100px;
+	width:100%;
+}
+
+#footLogo{
+	width:100%;
+	height:100px;
+}
+
+#footLogo img{
+	width: 50%;
+	height:100px;
+}
+
+#grid{
+	display: flex;
+	width: 100%;
+}
+
+#Copyright{
+	width:30%;
+}
+
+#AboutUs{
+	width:20%;
+}
+
+#Career{
+	width:20%;
+}
+
+#Subscribe{
+	width:30%;
+	line-height:15px;
+}
+
+.subscribe{
+	width:100%;
+	margin-bottom:20px;
+}
+	
+.SubscribeSpeech{
+	width:90%;
+	line-height:20px;
+	word-spacing:0px;
+	text-align: left;
+}
+
+.Input{
+	display: block;
+	width:60%;
+	margin-top:20px;
+	margin-bottom: 10px;
+	border: 0px;
+	height:30px;
+}
+
+.SubscribeButton{
+	background-color: #C850D8;
+	color: white;
+	padding: 10px;
+	width:60%;
+	border: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+}
