@@ -1,2 +1,2 @@
-# Sitarackur--Css-Design
+# Gitarackur--Css-Design
 HUDDLE CHALLENGE @ FRONTENDMENTOR
